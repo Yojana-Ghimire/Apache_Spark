@@ -34,9 +34,9 @@ The pipelines ingest data from various sources such as **CSV**, **Parquet**, and
 
 ## Project Structure
 # Reader classes following Factory Pattern
-
-├── transformations/ # Business logic and Spark SQL scripts
-├── loaders/ # Data loading modules (Data Lake & Lakehouse)
-├── notebooks/ # Databricks notebooks exported (.ipynb)
-├── requirements.txt # Python dependencies
-└── README.md # This documentation
+  
+  ├── transformations/ # Business logic and Spark SQL scripts
+  ├── loaders/ # Data loading modules (Data Lake & Lakehouse)
+  ├── notebooks/ # Databricks notebooks exported (.ipynb)
+  ├── requirements.txt # Python dependencies
+  └── README.md # This documentation
